@@ -14,27 +14,29 @@
       <form>
         <div>
           <label for="">DAY</label>
-          <input type="number" placeholder="24">
+          <input type="number" placeholder="DD" class="day">
         </div>
         <div>
           <label for="">MONTH</label>
-          <input type="number" placeholder="09">
+          <input type="number" placeholder="MM" class="month">
         </div>
         <div>
           <label for="">YEAR</label>
-          <input type="number" placeholder="1984">
+          <input type="number" placeholder="YY" class="year">
         </div>
       </form>
       <section class="nw">
         <hr>
-        <img src="assets/images/icon-arrow.svg" alt="">
+        <img src="assets/images/icon-arrow.svg" alt="" onclick="calculate()">
       </section>
       <section class="sh">
-        <h1><span>38</span>years</h1>
-        <h1><span>3</span>months</h1>
-        <h1><span>26</span>days</h1>
+        <h1><span class="yea">38</span>years</h1>
+        <h1><span class="mon">3</span>months</h1>
+        <h1><span class="dy">26</span>days</h1>
       </section>
     </div>
   </main>
+
+  <script src="index.js"></script>
 </body>
 </html>
